@@ -1,5 +1,98 @@
 {
- "updated_at": null,
- "videos": [],
- "notes": ["まだ投稿がありません。GitHub Actions が初回実行されるとここが埋まります。"]
+ "updated_at": "2026-07-27T19:36:01+00:00",
+ "videos": [
+  {
+   "platform": "youtube",
+   "id": "-ikVfpr-AGw",
+   "url": "https://youtube.com/shorts/-ikVfpr-AGw",
+   "title": "5 Spots in Osaka You're Visiting Wrong (Fix This) #Shorts",
+   "published_at": "2026-07-27T19:31:03Z",
+   "privacy": "public",
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "travel",
+   "category": "must see spots in a major city",
+   "real": 7,
+   "ai": 0
+  },
+  {
+   "platform": "youtube",
+   "id": "CMCiYwQftLo",
+   "url": "https://youtube.com/shorts/CMCiYwQftLo",
+   "title": "5 Japanese Jobs That Will Break Your Brain #Shorts",
+   "published_at": "2026-07-27T19:31:00Z",
+   "privacy": "public",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "culture",
+   "category": "jobs and work culture",
+   "real": 3,
+   "ai": 4
+  },
+  {
+   "platform": "youtube",
+   "id": "Z9qBIQP6gxI",
+   "url": "https://youtube.com/shorts/Z9qBIQP6gxI",
+   "title": "5 Underrated Japanese Towns That Will Blow Your Mind #Shorts",
+   "published_at": "2026-07-27T19:30:57Z",
+   "privacy": "public",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "travel",
+   "category": "underrated towns worth visiting",
+   "real": 6,
+   "ai": 1
+  },
+  {
+   "platform": "youtube",
+   "id": "1KFbIqO_f_4",
+   "url": "https://youtube.com/shorts/1KFbIqO_f_4",
+   "title": "5 Weird Things You'll See in Japan on Day One #Shorts",
+   "published_at": "2026-07-27T19:30:54Z",
+   "privacy": "public",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "culture",
+   "category": "everyday customs that surprise visitors",
+   "real": 0,
+   "ai": 7
+  },
+  {
+   "platform": "youtube",
+   "id": "Df3jB_MBbFg",
+   "url": "https://youtube.com/shorts/Df3jB_MBbFg",
+   "title": "5 Products You Can Only Buy in Japan Right Now #Shorts",
+   "published_at": "2026-07-27T19:30:24Z",
+   "privacy": "public",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "product",
+   "category": "products that only exist in Japan",
+   "real": 0,
+   "ai": 7
+  },
+  {
+   "platform": "youtube",
+   "id": "824e8Vyp-Yg",
+   "url": "https://youtube.com/shorts/824e8Vyp-Yg",
+   "title": "5 Numbers About Japan That Sound Made Up (But Aren't) #Shorts",
+   "published_at": "2026-07-27T19:30:17Z",
+   "privacy": "public",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "other",
+   "category": "trivia and little known facts",
+   "real": 2,
+   "ai": 5
+  }
+ ],
+ "notes": [
+  "TikTok: アクセストークン未設定のため取得をスキップしました"
+ ]
 }
