@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f1115">
+<title>short-factory 分析</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#181b22; --line:#262b35;
+    --fg:#e8eaed; --dim:#9aa3b2; --accent:#ffc93c;
+    --good:#4ade80; --bad:#f87171;
+    --travel:#38bdf8; --culture:#c084fc; --product:#fb923c; --other:#94a3b8;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f7f9; --card:#fff; --line:#e3e6ea; --fg:#16181d; --dim:#5f6875; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:15px/1.6 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+    padding:16px 14px 48px; max-width:900px; margin-inline:auto;
+    -webkit-text-size-adjust:100%;
+  }
+  h1{font-size:19px; margin:0 0 2px}
+  .sub{color:var(--dim); font-size:12px; margin-bottom:18px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:14px}
+  h2{font-size:13px; color:var(--dim); margin:0 0 12px; font-weight:600; letter-spacing:.04em}
+
+  /* 数字タイル */
+  .kpis{display:grid; grid-template-columns:repeat(2,1fr); gap:10px}
+  @media(min-width:560px){ .kpis{grid-template-columns:repeat(4,1fr)} }
+  .kpi{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 14px}
+  .kpi .v{font-size:24px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums}
+  .kpi .l{font-size:11px; color:var(--dim); margin-top:2px}
+
+  /* カテゴリ別の棒 */
+  .bars{display:flex; flex-direction:column; gap:9px}
+  .bar-row{display:grid; grid-template-columns:88px 1fr auto; gap:9px; align-items:center; font-size:13px}
+  .bar-track{background:var(--line); border-radius:5px; height:9px; overflow:hidden}
+  /* span のままだとインライン要素になり width / height が効かないので block にする */
+  .bar-fill{display:block; height:100%; border-radius:5px; min-width:3px}
+  .bar-num{font-variant-numeric:tabular-nums; color:var(--dim); font-size:12px; min-width:74px; text-align:right}
+
+  /* 動画一覧 */
+  .vid{display:block; color:inherit; text-decoration:none; border-top:1px solid var(--line); padding:11px 0}
+  .vid:first-of-type{border-top:none}
+  .vid-t{font-weight:600; font-size:14px; margin-bottom:4px; line-height:1.4}
+  .vid-m{display:flex; flex-wrap:wrap; gap:5px 12px; font-size:12px; color:var(--dim); font-variant-numeric:tabular-nums}
+  .tag{display:inline-block; font-size:10px; padding:2px 7px; border-radius:99px; color:#0b0d10; font-weight:700}
+  .pf{font-size:10px; padding:2px 6px; border-radius:4px; border:1px solid var(--line); color:var(--dim)}
+
+  .empty{color:var(--dim); text-align:center; padding:28px 12px; font-size:13px; line-height:1.9}
+  .note{background:#3a2a12; border:1px solid #5c4620; color:#f5d99b; border-radius:9px; padding:9px 11px; font-size:12px; margin-bottom:9px}
+  @media (prefers-color-scheme: light){ .note{background:#fff8e6; border-color:#f0dca8; color:#6b5311} }
+  .seg{display:flex; gap:6px; margin-bottom:12px; flex-wrap:wrap}
+  .seg button{
+    background:var(--card); border:1px solid var(--line); color:var(--dim);
+    border-radius:99px; padding:6px 13px; font-size:12px; cursor:pointer; font-family:inherit;
+  }
+  .seg button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#0b0d10; font-weight:700}
+  footer{color:var(--dim); font-size:11px; text-align:center; margin-top:22px; line-height:1.8}
+</style>
+</head>
+<body>
+
+<h1>short-factory 分析</h1>
+<div class="sub" id="updated">読み込み中…</div>
+
+<div id="notes"></div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="card">
+  <h2>カテゴリ別の平均再生数</h2>
+  <div id="buckets"></div>
+</div>
+
+<div class="card">
+  <h2>動画一覧</h2>
+  <div class="seg" id="filter"></div>
+  <div id="videos"></div>
+</div>
+
+<footer>
+  1本あたりの制作費 約13円（Claude 6.6円＋fal.ai 6.6円）<br>
+  更新は毎日 JST 9:00 ／ このページは検索避け設定済み
+</footer>
+
+<script>
+const BUCKET_JA = {travel:"観光地", culture:"文化", product:"商品", other:"その他"};
+const COST_JPY = 13.2;   // 1本あたりの制作費（Claude＋fal.ai の実測）
+let DATA = null, filter = "all";
+
+const n = v => (v ?? 0).toLocaleString("ja-JP");
+const esc = s => (s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function kpis(vs){
+  const views = vs.reduce((a,v)=>a+(v.views||0),0);
+  const likes = vs.reduce((a,v)=>a+(v.likes||0),0);
+  // 視聴維持率は取れた動画だけで平均する（0本なら「—」）
+  const withRet = vs.filter(v => v.avg_view_percent != null);
+  const ret = withRet.length
+    ? (withRet.reduce((a,v)=>a+v.avg_view_percent,0)/withRet.length).toFixed(0)+"%" : "—";
+  const cost = vs.length * COST_JPY;
+  const cpm = views ? "¥" + (cost/views*1000).toFixed(1) : "—";
+  return [
+    [n(vs.length), "投稿本数"],
+    [n(views), "総再生数"],
+    [ret, "平均視聴維持率"],
+    [cpm, "1000再生あたり原価"],
+  ];
+}
+
+function render(){
+  const all = DATA.videos || [];
+  document.getElementById("updated").textContent =
+    all.length ? `最終更新 ${new Date(DATA.updated_at).toLocaleString("ja-JP")}`
+               : "まだデータがありません";
+
+  document.getElementById("notes").innerHTML =
+    (DATA.notes||[]).map(t=>`<div class="note">${esc(t)}</div>`).join("");
+
+  document.getElementById("kpis").innerHTML = kpis(all)
+    .map(([v,l])=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+
+  // --- カテゴリ別 ---
+  const g = {};
+  for(const v of all){
+    const b = v.bucket || "other";
+    (g[b] ||= []).push(v);
+  }
+  const rows = Object.entries(g)
+    .map(([b,vs])=>[b, vs.length, vs.reduce((a,v)=>a+(v.views||0),0)/vs.length])
+    .sort((a,c)=>c[2]-a[2]);
+  const max = Math.max(...rows.map(r=>r[2]), 1);
+  document.getElementById("buckets").innerHTML = rows.length
+    ? `<div class="bars">${rows.map(([b,c,avg])=>`
+        <div class="bar-row">
+          <span><span class="tag" style="background:var(--${b})">${BUCKET_JA[b]||b}</span></span>
+          <span class="bar-track"><span class="bar-fill" style="width:${avg/max*100}%;background:var(--${b})"></span></span>
+          <span class="bar-num">${n(Math.round(avg))} / ${c}本</span>
+        </div>`).join("")}</div>`
+    : `<div class="empty">投稿が始まると、どのカテゴリが伸びるかここに出ます。<br>配分（観光6:文化2:商品1:その他1）を実データで見直せます。</div>`;
+
+  // --- フィルタ ---
+  const buckets = ["all", ...Object.keys(g)];
+  document.getElementById("filter").innerHTML = all.length ? buckets.map(b=>
+    `<button aria-pressed="${filter===b}" data-b="${b}">${b==="all"?"すべて":(BUCKET_JA[b]||b)}</button>`
+  ).join("") : "";
+  document.querySelectorAll("#filter button").forEach(btn=>
+    btn.onclick = () => { filter = btn.dataset.b; render(); });
+
+  // --- 一覧 ---
+  const list = filter==="all" ? all : all.filter(v=>(v.bucket||"other")===filter);
+  document.getElementById("videos").innerHTML = list.length ? list.map(v=>`
+    <a class="vid" href="${esc(v.url)}" target="_blank" rel="noopener">
+      <div class="vid-t">${esc(v.title)}</div>
+      <div class="vid-m">
+        <span class="pf">${v.platform==="youtube"?"YouTube":"TikTok"}</span>
+        ${v.bucket?`<span class="tag" style="background:var(--${v.bucket})">${BUCKET_JA[v.bucket]||v.bucket}</span>`:""}
+        <span>▶ ${n(v.views)}</span>
+        <span>♡ ${n(v.likes)}</span>
+        ${v.avg_view_percent!=null?`<span>維持 ${v.avg_view_percent}%</span>`:""}
+        ${v.real!=null?`<span>実写${v.real}/AI${v.ai}</span>`:""}
+        <span>${new Date(v.published_at).toLocaleDateString("ja-JP")}</span>
+        ${v.privacy&&v.privacy!=="public"?`<span style="color:var(--accent)">${v.privacy}</span>`:""}
+      </div>
+    </a>`).join("")
+    : `<div class="empty">まだ投稿がありません。<br>TARGETS に youtube,tiktok を設定して1本投稿すると、ここに並びます。</div>`;
+}
+
+fetch("data.json?" + Date.now())
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(d => { DATA = d; render(); })
+  .catch(e => {
+    document.getElementById("updated").textContent = "データを読み込めませんでした";
+    document.getElementById("videos").innerHTML =
+      `<div class="empty">data.json が読めません（${esc(String(e))}）。<br>GitHub Actions が1回動くと生成されます。</div>`;
+  });
+</script>
+</body>
+</html>
