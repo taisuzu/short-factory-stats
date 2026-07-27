@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>TikTok 認可コード</title>
+<style>
+  :root{ --bg:#0f1115; --card:#181b22; --line:#262b35; --fg:#e8eaed; --dim:#9aa3b2; --accent:#ffc93c; }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f7f9; --card:#fff; --line:#e3e6ea; --fg:#16181d; --dim:#5f6875; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg); padding:28px 18px;
+    font:15px/1.7 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+    max-width:680px; margin-inline:auto;
+  }
+  h1{font-size:19px; margin:0 0 6px}
+  .sub{color:var(--dim); font-size:13px; margin-bottom:20px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:14px}
+  code{
+    display:block; word-break:break-all; font-size:13px; line-height:1.6;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:12px; margin:10px 0;
+  }
+  button{
+    background:var(--accent); color:#0b0d10; border:0; border-radius:8px;
+    padding:10px 18px; font-size:14px; font-weight:700; cursor:pointer; font-family:inherit;
+  }
+  .err{color:#f87171}
+  ol{padding-left:20px; color:var(--dim); font-size:13px}
+</style>
+</head>
+<body>
+<h1>TikTok 認可コード</h1>
+<div class="sub">このページはTikTok認可のリダイレクト先です。コードをターミナルに貼り付けてください。</div>
+<div class="card" id="out">読み込み中…</div>
+<div class="card">
+  <ol>
+    <li>上のコードをコピー</li>
+    <li><code style="display:inline;padding:2px 6px">tools/tiktok_auth.py</code> を実行中のターミナルに貼り付けて Enter</li>
+    <li>コードは数分で失効します。切れたら認可をやり直してください</li>
+  </ol>
+</div>
+<script>
+const p = new URLSearchParams(location.search);
+const code = p.get("code"), err = p.get("error");
+const out = document.getElementById("out");
+if (err) {
+  out.innerHTML = `<div class="err">認可に失敗しました: ${err.replace(/[<>&]/g,"")}</div>
+    <div style="color:var(--dim);font-size:13px;margin-top:8px">${(p.get("error_description")||"").replace(/[<>&]/g,"")}</div>`;
+} else if (code) {
+  out.innerHTML = `<div style="font-size:13px;color:var(--dim)">認可コード</div>
+    <code id="c">${code.replace(/[<>&]/g,"")}</code>
+    <button id="b">コピー</button>`;
+  document.getElementById("b").onclick = async () => {
+    await navigator.clipboard.writeText(code);
+    document.getElementById("b").textContent = "コピーしました";
+  };
+} else {
+  out.innerHTML = `<div class="err">コードがURLに含まれていません。</div>
+    <div style="color:var(--dim);font-size:13px;margin-top:8px">
+    TikTokの認可画面から遷移してきた場合のみ表示されます。</div>`;
+}
+</script>
+</body>
+</html>
