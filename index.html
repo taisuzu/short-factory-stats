@@ -61,6 +61,19 @@
   }
   .seg button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#0b0d10; font-weight:700}
   footer{color:var(--dim); font-size:11px; text-align:center; margin-top:22px; line-height:1.8}
+  /* TikTok用キャプション。スマホで押しやすいよう全体をボタンにする */
+  .cap{
+    display:block; width:100%; text-align:left; background:transparent; cursor:pointer;
+    border:1px solid var(--line); border-radius:10px; padding:12px; margin-bottom:8px;
+    color:inherit; font-family:inherit; font-size:inherit;
+  }
+  .cap:hover{border-color:var(--accent)}
+  .cap-body{
+    white-space:pre-wrap; word-break:break-word; color:var(--dim);
+    font-size:12px; line-height:1.7; margin:6px 0 8px;
+    user-select:text; -webkit-user-select:text;   /* コピー失敗時に長押し選択できるように */
+  }
+  .cap-copy{color:var(--accent)}
 </style>
 </head>
 <body>
@@ -71,6 +84,12 @@
 <div id="notes"></div>
 
 <div class="kpis" id="kpis"></div>
+
+<div class="card">
+  <h2>TikTok用キャプション</h2>
+  <div class="sub" style="margin:0 0 10px">受信箱の下書きに貼る文面。タップでコピーされます。</div>
+  <div id="captions"></div>
+</div>
 
 <div class="card">
   <h2>カテゴリ別の平均再生数</h2>
@@ -91,10 +110,28 @@
 <script>
 const BUCKET_JA = {travel:"観光地", culture:"文化", product:"商品", other:"その他"};
 const COST_JPY = 13.2;   // 1本あたりの制作費（Claude＋fal.ai の実測）
-let DATA = null, filter = "all";
+let DATA = null, filter = "all", CAPS = [];
 
 const n = v => (v ?? 0).toLocaleString("ja-JP");
 const esc = s => (s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// クリップボードにコピーする。navigator.clipboard は https か localhost でしか
+// 使えないので、駄目なら旧APIに落とす。それも駄目なら false を返して手動選択に案内する
+async function copy(text){
+  try { await navigator.clipboard.writeText(text); return true; } catch(e){}
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.cssText = "position:fixed;top:0;left:0;opacity:0";
+    document.body.appendChild(ta);
+    ta.select();
+    ta.setSelectionRange(0, text.length);   // iOS対策
+    const ok = document.execCommand("copy");
+    ta.remove();
+    return ok;
+  } catch(e){ return false; }
+}
 
 function kpis(vs){
   const views = vs.reduce((a,v)=>a+(v.views||0),0);
@@ -143,6 +180,27 @@ function render(){
           <span class="bar-num">${n(Math.round(avg))} / ${c}本</span>
         </div>`).join("")}</div>`
     : `<div class="empty">投稿が始まると、どのカテゴリが伸びるかここに出ます。<br>配分（観光6:文化2:商品1:その他1）を実データで見直せます。</div>`;
+
+  // --- TikTok用キャプション ---
+  // TikTokの受信箱アップロードは説明文を送れない。同じ内容をYouTube側の
+  // 説明文から出して、スマホからコピーできるようにする
+  const caps = all.filter(v => v.platform === "youtube" && v.caption).slice(0, 5);
+  CAPS = caps;
+  document.getElementById("captions").innerHTML = caps.length ? caps.map((v,i)=>`
+    <button class="cap" data-i="${i}">
+      <div class="vid-t">${esc(v.title)}</div>
+      <div class="cap-body">${esc(v.caption)}</div>
+      <div class="vid-m"><span class="cap-copy">タップしてコピー</span></div>
+    </button>`).join("")
+    : `<div class="empty">まだキャプションがありません。<br>YouTubeに1本上がると、その説明文がここに出ます。</div>`;
+  document.querySelectorAll("#captions .cap").forEach(btn =>
+    btn.onclick = () => {
+      const label = btn.querySelector(".cap-copy");
+      copy(CAPS[btn.dataset.i].caption).then(ok => {
+        label.textContent = ok ? "コピーしました" : "本文を長押しして選択してください";
+        setTimeout(() => { label.textContent = "タップしてコピー"; }, 2500);
+      });
+    });
 
   // --- フィルタ ---
   const buckets = ["all", ...Object.keys(g)];

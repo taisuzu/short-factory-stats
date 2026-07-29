@@ -115,6 +115,9 @@ def yt_videos(token: str, ids: list[str]) -> list[dict]:
                 "id": v["id"],
                 "url": f"https://youtube.com/shorts/{v['id']}",
                 "title": sn["title"],
+                # TikTokの受信箱アップロードは説明文をAPIで付けられないので、
+                # 同じ内容（YouTubeの説明文）をページに出してコピーさせる
+                "caption": sn.get("description", ""),
                 "published_at": sn["publishedAt"],
                 "privacy": v.get("status", {}).get("privacyStatus"),
                 "views": int(st.get("viewCount", 0)),
