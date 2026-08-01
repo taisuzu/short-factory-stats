@@ -1,6 +1,38 @@
 {
- "updated_at": "2026-07-31T02:01:38+00:00",
+ "updated_at": "2026-08-01T02:02:37+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "UKgfVIkwM8A",
+   "url": "https://youtube.com/shorts/UKgfVIkwM8A",
+   "title": "Why Japan's Most Expensive Lacquer Takes 30 Years to Master #Shorts",
+   "caption": "Japan's most expensive lacquerware takes 30 years to master, 124 steps, and a tree that bleeds just 200 grams a season. Here's why.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts",
+   "published_at": "2026-08-01T00:10:25Z",
+   "privacy": "public",
+   "views": 40,
+   "likes": 5,
+   "comments": 0,
+   "bucket": "other",
+   "category": "crafts and craftsmen",
+   "real": 1,
+   "ai": 6
+  },
+  {
+   "platform": "youtube",
+   "id": "U60qe6Idajg",
+   "url": "https://youtube.com/shorts/U60qe6Idajg",
+   "title": "5 Wild Things That Only Happen at Japanese Summer Festivals #Shorts",
+   "caption": "From goldfish scooping to giant warrior floats — Japanese summer festivals are full of things you won't see anywhere else.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts\n\nPhotos: Marie-Sophie Mejan (CC BY 4.0) via Wikimedia Commons",
+   "published_at": "2026-07-31T16:35:22Z",
+   "privacy": "public",
+   "views": 20,
+   "likes": 3,
+   "comments": 0,
+   "bucket": "culture",
+   "category": "seasonal events and festivals",
+   "real": 1,
+   "ai": 6
+  },
   {
    "platform": "youtube",
    "id": "HiNnQRN1XUo",
@@ -9,8 +41,8 @@
    "caption": "Japan's summer festivals go way beyond food stalls — grass rings, dissolving paper scoops, and a firework 3km wide. Here's what's actually happening.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts\n\nPhotos: MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN, MIKI Yoshihito from Sapporo City, Hokkaido, Japan, Sarah Stierch, nubobo (CC BY 2.0, CC BY 4.0) via Wikimedia Commons",
    "published_at": "2026-07-31T00:57:57Z",
    "privacy": "public",
-   "views": 9,
-   "likes": 0,
+   "views": 35,
+   "likes": 2,
    "comments": 0,
    "bucket": "culture",
    "category": "seasonal events and festivals",
@@ -41,8 +73,8 @@
    "caption": "Skip the queues. Five real Japanese alternatives to Arashiyama, Fushimi Inari, Shirakawa-go, Tsukiji and Hakone — with fewer crowds.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts\n\nPhotos: yuki5287 (CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-07-30T07:33:12Z",
    "privacy": "public",
-   "views": 984,
-   "likes": 18,
+   "views": 975,
+   "likes": 17,
    "comments": 1,
    "bucket": "travel",
    "category": "places to go instead of the famous ones",
@@ -57,8 +89,8 @@
    "caption": "From hot corn soup in a can to insurance at the register — Japan's vending machines and konbini are on another level entirely.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts\n\nPhotos: Firzafp (CC BY 4.0) via Wikimedia Commons",
    "published_at": "2026-07-30T07:32:07Z",
    "privacy": "public",
-   "views": 474,
-   "likes": 10,
+   "views": 1263,
+   "likes": 12,
    "comments": 1,
    "bucket": "product",
    "category": "vending machines and convenience store i",
@@ -73,13 +105,16 @@
    "caption": "Japan has places that are spectacular for two weeks and forgettable the rest of the year. Here are five, and exactly when to show up.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-29T16:22:47Z",
    "privacy": "public",
-   "views": 8,
+   "views": 7,
    "likes": 1,
    "comments": 1,
    "bucket": "travel",
    "category": "seasonal destinations",
    "real": 5,
-   "ai": 2
+   "ai": 2,
+   "watch_minutes": 1,
+   "avg_view_seconds": 46,
+   "avg_view_percent": 83.4
   },
   {
    "platform": "youtube",
@@ -89,13 +124,16 @@
    "caption": "From a buried Monet museum to a building you can walk on top of — Japan's architecture hits different. Here are 5 that prove it.\n\n  #japan #japantravel #culture #shorts",
    "published_at": "2026-07-29T16:19:28Z",
    "privacy": "public",
-   "views": 736,
+   "views": 775,
    "likes": 12,
    "comments": 1,
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null
+   "ai": null,
+   "watch_minutes": 0,
+   "avg_view_seconds": 56,
+   "avg_view_percent": 103.3
   },
   {
    "platform": "youtube",
@@ -105,13 +143,16 @@
    "caption": "Everyone visits these famous spots — almost nobody knows these details. Here's how to actually experience them.\n  #japan #japantravel #culture #shorts",
    "published_at": "2026-07-29T15:09:01Z",
    "privacy": "public",
-   "views": 249,
+   "views": 246,
    "likes": 1,
    "comments": 1,
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null
+   "ai": null,
+   "watch_minutes": 57,
+   "avg_view_seconds": 67,
+   "avg_view_percent": 142.9
   },
   {
    "platform": "youtube",
@@ -127,7 +168,10 @@
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null
+   "ai": null,
+   "watch_minutes": 25,
+   "avg_view_seconds": 56,
+   "avg_view_percent": 111.3
   },
   {
    "platform": "youtube",
@@ -137,7 +181,7 @@
    "caption": "Aomori prefecture hides rituals that confuse even other Japanese — from midnight festivals to volcano-side séances. Here are five you won't believe.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-29T00:38:11Z",
    "privacy": "private",
-   "views": 3,
+   "views": 0,
    "likes": 0,
    "comments": 0,
    "bucket": "culture",
@@ -156,16 +200,16 @@
    "caption": "Japan has places that only exist at their best for a few weeks. Here are 5 seasonal spots worth timing your trip around.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts\n\nPhotos: AnonymousUnknown author, Damien McMahon from West Yorkshire, England, Douglas Perkins, Hyppolyte de Saint-Rambert, surimu (CC BY 4.0, CC BY 2.0, CC BY 3.0) via Wikimedia Commons",
    "published_at": "2026-07-29T00:06:59Z",
    "privacy": "public",
-   "views": 304,
+   "views": 303,
    "likes": 4,
    "comments": 1,
    "bucket": "travel",
    "category": "seasonal destinations",
    "real": 5,
    "ai": 2,
-   "watch_minutes": 54,
-   "avg_view_seconds": 19,
-   "avg_view_percent": 38.4
+   "watch_minutes": 56,
+   "avg_view_seconds": 20,
+   "avg_view_percent": 38.9
   },
   {
    "platform": "youtube",
@@ -175,16 +219,16 @@
    "caption": "From a bamboo gorge railway to a 20-metre snow corridor — 5 train and ferry journeys in Japan that will genuinely surprise you.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-28T17:53:04Z",
    "privacy": "public",
-   "views": 917,
+   "views": 915,
    "likes": 32,
    "comments": 1,
    "bucket": "travel",
    "category": "scenic railways and journeys",
    "real": 6,
    "ai": 1,
-   "watch_minutes": 375,
+   "watch_minutes": 376,
    "avg_view_seconds": 38,
-   "avg_view_percent": 69.2
+   "avg_view_percent": 68.6
   },
   {
    "platform": "youtube",
@@ -201,9 +245,9 @@
    "category": "scenic railways and journeys",
    "real": 4,
    "ai": 3,
-   "watch_minutes": 2,
-   "avg_view_seconds": 70,
-   "avg_view_percent": 135.3
+   "watch_minutes": 0,
+   "avg_view_seconds": 38,
+   "avg_view_percent": 73.1
   },
   {
    "platform": "youtube",
@@ -220,9 +264,9 @@
    "category": "must see spots in a major city",
    "real": 7,
    "ai": 0,
-   "watch_minutes": 0,
-   "avg_view_seconds": 8,
-   "avg_view_percent": 17.6
+   "watch_minutes": 1,
+   "avg_view_seconds": 21,
+   "avg_view_percent": 43.3
   },
   {
    "platform": "youtube",
@@ -232,7 +276,7 @@
    "caption": "From sniffing armpits to pushing people onto trains — 5 jobs in Japan that will genuinely surprise you.\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-27T19:31:00Z",
    "privacy": "public",
-   "views": 4,
+   "views": 3,
    "likes": 0,
    "comments": 0,
    "bucket": "culture",
@@ -240,8 +284,8 @@
    "real": 3,
    "ai": 4,
    "watch_minutes": 0,
-   "avg_view_seconds": 7,
-   "avg_view_percent": 14.6
+   "avg_view_seconds": 15,
+   "avg_view_percent": 29.3
   },
   {
    "platform": "youtube",
@@ -251,7 +295,7 @@
    "caption": "Skip the crowds. These five Japanese towns — from canal boats to seaside castles — are real, visitable and genuinely surprising.\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-27T19:30:57Z",
    "privacy": "public",
-   "views": 16,
+   "views": 15,
    "likes": 1,
    "comments": 1,
    "bucket": "travel",
@@ -259,8 +303,8 @@
    "real": 6,
    "ai": 1,
    "watch_minutes": 1,
-   "avg_view_seconds": 23,
-   "avg_view_percent": 43.7
+   "avg_view_seconds": 19,
+   "avg_view_percent": 36.1
   },
   {
    "platform": "youtube",
@@ -270,7 +314,7 @@
    "caption": "First-time visitors notice these instantly — but nobody explains them. Here are 5 everyday Japan customs that will catch you off guard.\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-27T19:30:54Z",
    "privacy": "public",
-   "views": 14,
+   "views": 13,
    "likes": 0,
    "comments": 0,
    "bucket": "culture",
@@ -289,7 +333,7 @@
    "caption": "From sake vending machines to mosquito-repelling ramen — 5 products you can genuinely only buy in Japan right now.\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-27T19:30:24Z",
    "privacy": "public",
-   "views": 8,
+   "views": 7,
    "likes": 0,
    "comments": 0,
    "bucket": "product",
