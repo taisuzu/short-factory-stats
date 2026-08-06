@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-05T01:48:54+00:00",
+ "updated_at": "2026-08-06T01:49:35+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "S0g4lmRtHOo",
+   "url": "https://youtube.com/shorts/S0g4lmRtHOo",
+   "title": "Japan's Castles: 5 Things That Actually Survived #Shorts",
+   "caption": "One of Japan's most famous castles is a 1931 concrete rebuild with a lift. Here's what actually survived, and why.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
+   "published_at": "2026-08-05T23:58:14Z",
+   "privacy": "public",
+   "views": 189,
+   "likes": 9,
+   "comments": 0,
+   "bucket": null,
+   "category": null,
+   "real": null,
+   "ai": null
+  },
   {
    "platform": "youtube",
    "id": "-QUdUlRyddE",
@@ -15,7 +31,10 @@
    "bucket": "culture",
    "category": "unwritten social rules and etiquette",
    "real": 4,
-   "ai": 3
+   "ai": 3,
+   "watch_minutes": 183,
+   "avg_view_seconds": 29,
+   "avg_view_percent": 58.7
   },
   {
    "platform": "youtube",
@@ -25,16 +44,16 @@
    "caption": "Mount Fuji's climbing season is open. Who owns the summit, the post office at 3,776 metres, and the fee every climber now pays.\n\n  #japan #japantravel #culture #shorts",
    "published_at": "2026-08-02T21:06:14Z",
    "privacy": "public",
-   "views": 356,
+   "views": 343,
    "likes": 4,
    "comments": 1,
    "bucket": null,
    "category": null,
    "real": null,
    "ai": null,
-   "watch_minutes": 80,
-   "avg_view_seconds": 38,
-   "avg_view_percent": 70.1
+   "watch_minutes": 161,
+   "avg_view_seconds": 73,
+   "avg_view_percent": 133.9
   },
   {
    "platform": "youtube",
@@ -70,9 +89,9 @@
    "category": null,
    "real": 6,
    "ai": 1,
-   "watch_minutes": 58,
+   "watch_minutes": 57,
    "avg_view_seconds": 23,
-   "avg_view_percent": 48.7
+   "avg_view_percent": 49.0
   },
   {
    "platform": "youtube",
@@ -89,9 +108,9 @@
    "category": "crafts and craftsmen",
    "real": 1,
    "ai": 6,
-   "watch_minutes": 11,
-   "avg_view_seconds": 21,
-   "avg_view_percent": 41.4
+   "watch_minutes": 12,
+   "avg_view_seconds": 20,
+   "avg_view_percent": 39.4
   },
   {
    "platform": "youtube",
@@ -110,7 +129,7 @@
    "ai": 6,
    "watch_minutes": 63,
    "avg_view_seconds": 28,
-   "avg_view_percent": 50.1
+   "avg_view_percent": 50.3
   },
   {
    "platform": "youtube",
@@ -128,8 +147,8 @@
    "real": 1,
    "ai": 6,
    "watch_minutes": 9,
-   "avg_view_seconds": 29,
-   "avg_view_percent": 59.4
+   "avg_view_seconds": 30,
+   "avg_view_percent": 61.7
   },
   {
    "platform": "youtube",
@@ -146,9 +165,9 @@
    "category": "seasonal events and festivals",
    "real": 6,
    "ai": 1,
-   "watch_minutes": 10,
-   "avg_view_seconds": 30,
-   "avg_view_percent": 59.1
+   "watch_minutes": 9,
+   "avg_view_seconds": 29,
+   "avg_view_percent": 57.9
   },
   {
    "platform": "youtube",
@@ -165,9 +184,9 @@
    "category": "vending machines and convenience store i",
    "real": 2,
    "ai": 5,
-   "watch_minutes": 8,
-   "avg_view_seconds": 19,
-   "avg_view_percent": 39.6
+   "watch_minutes": 7,
+   "avg_view_seconds": 17,
+   "avg_view_percent": 35.9
   },
   {
    "platform": "youtube",
@@ -184,9 +203,9 @@
    "category": "places to go instead of the famous ones",
    "real": 6,
    "ai": 1,
-   "watch_minutes": 212,
+   "watch_minutes": 208,
    "avg_view_seconds": 20,
-   "avg_view_percent": 40.7
+   "avg_view_percent": 40.5
   },
   {
    "platform": "youtube",
@@ -196,16 +215,16 @@
    "caption": "From hot corn soup in a can to insurance at the register — Japan's vending machines and konbini are on another level entirely.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts\n\nPhotos: Firzafp (CC BY 4.0) via Wikimedia Commons",
    "published_at": "2026-07-30T07:32:07Z",
    "privacy": "public",
-   "views": 1465,
+   "views": 1463,
    "likes": 15,
    "comments": 1,
    "bucket": "product",
    "category": "vending machines and convenience store i",
    "real": 1,
    "ai": 6,
-   "watch_minutes": 289,
+   "watch_minutes": 286,
    "avg_view_seconds": 32,
-   "avg_view_percent": 65.3
+   "avg_view_percent": 65.4
   },
   {
    "platform": "youtube",
@@ -222,9 +241,9 @@
    "category": "seasonal destinations",
    "real": 5,
    "ai": 2,
-   "watch_minutes": 2,
-   "avg_view_seconds": 33,
-   "avg_view_percent": 59.3
+   "watch_minutes": 1,
+   "avg_view_seconds": 32,
+   "avg_view_percent": 58.5
   },
   {
    "platform": "youtube",
@@ -234,16 +253,16 @@
    "caption": "From a buried Monet museum to a building you can walk on top of — Japan's architecture hits different. Here are 5 that prove it.\n\n  #japan #japantravel #culture #shorts",
    "published_at": "2026-07-29T16:19:28Z",
    "privacy": "public",
-   "views": 780,
+   "views": 779,
    "likes": 12,
    "comments": 1,
    "bucket": null,
    "category": null,
    "real": null,
    "ai": null,
-   "watch_minutes": 261,
+   "watch_minutes": 259,
    "avg_view_seconds": 36,
-   "avg_view_percent": 66.7
+   "avg_view_percent": 67.1
   },
   {
    "platform": "youtube",
@@ -261,8 +280,8 @@
    "real": null,
    "ai": null,
    "watch_minutes": 132,
-   "avg_view_seconds": 149,
-   "avg_view_percent": 317.4
+   "avg_view_seconds": 160,
+   "avg_view_percent": 342.1
   },
   {
    "platform": "youtube",
@@ -280,8 +299,8 @@
    "real": null,
    "ai": null,
    "watch_minutes": 25,
-   "avg_view_seconds": 54,
-   "avg_view_percent": 107.3
+   "avg_view_seconds": 56,
+   "avg_view_percent": 111.3
   },
   {
    "platform": "youtube",
@@ -298,9 +317,9 @@
    "category": "regional customs and rituals",
    "real": 2,
    "ai": 5,
-   "watch_minutes": 1,
-   "avg_view_seconds": 21,
-   "avg_view_percent": 40.1
+   "watch_minutes": 0,
+   "avg_view_seconds": 29,
+   "avg_view_percent": 54.2
   },
   {
    "platform": "youtube",
@@ -319,7 +338,7 @@
    "ai": 2,
    "watch_minutes": 66,
    "avg_view_seconds": 21,
-   "avg_view_percent": 41.3
+   "avg_view_percent": 41.6
   },
   {
    "platform": "youtube",
@@ -336,9 +355,9 @@
    "category": "scenic railways and journeys",
    "real": 6,
    "ai": 1,
-   "watch_minutes": 386,
+   "watch_minutes": 385,
    "avg_view_seconds": 38,
-   "avg_view_percent": 69.2
+   "avg_view_percent": 69.5
   },
   {
    "platform": "youtube",
@@ -355,9 +374,9 @@
    "category": "scenic railways and journeys",
    "real": 4,
    "ai": 3,
-   "watch_minutes": 0,
-   "avg_view_seconds": 38,
-   "avg_view_percent": 73.1
+   "watch_minutes": 2,
+   "avg_view_seconds": 70,
+   "avg_view_percent": 135.3
   },
   {
    "platform": "youtube",
@@ -375,8 +394,8 @@
    "real": 7,
    "ai": 0,
    "watch_minutes": 1,
-   "avg_view_seconds": 21,
-   "avg_view_percent": 43.3
+   "avg_view_seconds": 18,
+   "avg_view_percent": 36.2
   },
   {
    "platform": "youtube",
@@ -394,8 +413,8 @@
    "real": 3,
    "ai": 4,
    "watch_minutes": 0,
-   "avg_view_seconds": 12,
-   "avg_view_percent": 24.5
+   "avg_view_seconds": 15,
+   "avg_view_percent": 29.3
   },
   {
    "platform": "youtube",
@@ -412,9 +431,9 @@
    "category": "underrated towns worth visiting",
    "real": 6,
    "ai": 1,
-   "watch_minutes": 25,
-   "avg_view_seconds": 257,
-   "avg_view_percent": 484.9
+   "watch_minutes": 27,
+   "avg_view_seconds": 271,
+   "avg_view_percent": 512.8
   },
   {
    "platform": "youtube",
@@ -424,7 +443,7 @@
    "caption": "First-time visitors notice these instantly — but nobody explains them. Here are 5 everyday Japan customs that will catch you off guard.\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-07-27T19:30:54Z",
    "privacy": "public",
-   "views": 13,
+   "views": 14,
    "likes": 0,
    "comments": 0,
    "bucket": "culture",
@@ -451,8 +470,8 @@
    "real": 0,
    "ai": 7,
    "watch_minutes": 1,
-   "avg_view_seconds": 19,
-   "avg_view_percent": 35.5
+   "avg_view_seconds": 26,
+   "avg_view_percent": 49.0
   },
   {
    "platform": "youtube",
