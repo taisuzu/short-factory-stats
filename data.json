@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-13T01:15:02+00:00",
+ "updated_at": "2026-08-14T01:13:45+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "ESGuP0eSqW8",
+   "url": "https://youtube.com/shorts/ESGuP0eSqW8",
+   "title": "Japan in Mid-August: 5 Places That Vanish After This Week #Shorts",
+   "caption": "Mount Fuji's climbing window, Kamikochi's car ban, Awa Odori's four nights, Koshien's evicted pros, and Kyoto's Daimonji fires on August 16.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts\n\nPhotos: Fabio Achilli from Milano, Italy, Takeshi Kuboki from Amagasaki, Japan (CC BY 2.0) via Wikimedia Commons",
+   "published_at": "2026-08-13T23:38:24Z",
+   "privacy": "public",
+   "views": 7,
+   "likes": 2,
+   "comments": 0,
+   "bucket": "travel",
+   "category": "seasonal destinations",
+   "real": 6,
+   "ai": 1
+  },
   {
    "platform": "youtube",
    "id": "uEcHnGJoWUI",
@@ -9,13 +25,16 @@
    "caption": "August 11 is Mountain Day in Japan. Snow monkeys with their own pool, a 2,000-year-old cedar, and who really owns Fuji's summit.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts\n\nPhotos: Ashley98lee, Σ64 (CC BY 4.0, CC BY 3.0) via Wikimedia Commons",
    "published_at": "2026-08-11T23:37:04Z",
    "privacy": "public",
-   "views": 80,
+   "views": 159,
    "likes": 3,
    "comments": 0,
    "bucket": "other",
    "category": "animals and nature",
    "real": 3,
-   "ai": 4
+   "ai": 4,
+   "watch_minutes": 3,
+   "avg_view_seconds": 20,
+   "avg_view_percent": 40.1
   },
   {
    "platform": "youtube",
@@ -25,16 +44,16 @@
    "caption": "The five classic Japan experiences every traveller has on the list — plus the detail hiding inside each one.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-08-11T02:12:41Z",
    "privacy": "public",
-   "views": 440,
+   "views": 469,
    "likes": 2,
    "comments": 0,
    "bucket": null,
    "category": null,
    "real": 6,
    "ai": 1,
-   "watch_minutes": 1,
-   "avg_view_seconds": 59,
-   "avg_view_percent": 129.2
+   "watch_minutes": 18,
+   "avg_view_seconds": 20,
+   "avg_view_percent": 44.7
   },
   {
    "platform": "youtube",
@@ -51,9 +70,9 @@
    "category": "regional customs and rituals",
    "real": 6,
    "ai": 1,
-   "watch_minutes": 82,
-   "avg_view_seconds": 43,
-   "avg_view_percent": 82.8
+   "watch_minutes": 83,
+   "avg_view_seconds": 42,
+   "avg_view_percent": 82.1
   },
   {
    "platform": "youtube",
@@ -72,7 +91,7 @@
    "ai": 3,
    "watch_minutes": 142,
    "avg_view_seconds": 25,
-   "avg_view_percent": 53.3
+   "avg_view_percent": 53.2
   },
   {
    "platform": "youtube",
@@ -89,9 +108,9 @@
    "category": null,
    "real": 7,
    "ai": 0,
-   "watch_minutes": 138,
+   "watch_minutes": 136,
    "avg_view_seconds": 23,
-   "avg_view_percent": 47.3
+   "avg_view_percent": 47.2
   },
   {
    "platform": "youtube",
@@ -108,9 +127,9 @@
    "category": null,
    "real": null,
    "ai": null,
-   "watch_minutes": 168,
+   "watch_minutes": 166,
    "avg_view_seconds": 26,
-   "avg_view_percent": 52.3
+   "avg_view_percent": 52.1
   },
   {
    "platform": "youtube",
@@ -319,7 +338,7 @@
    "ai": 6,
    "watch_minutes": 286,
    "avg_view_seconds": 32,
-   "avg_view_percent": 65.4
+   "avg_view_percent": 65.3
   },
   {
    "platform": "youtube",
