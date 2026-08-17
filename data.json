@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-16T00:48:31+00:00",
+ "updated_at": "2026-08-17T00:45:07+00:00",
  "videos": [
   {
    "platform": "youtube",
@@ -9,7 +9,7 @@
    "caption": "Fan jackets at Workman, neck rings that reset in tap water, and why Japan's mosquito coil is a spiral. Five things on shelves this August.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-08-15T23:19:10Z",
    "privacy": "public",
-   "views": 2,
+   "views": 139,
    "likes": 0,
    "comments": 0,
    "bucket": "everyday",
@@ -25,16 +25,13 @@
    "caption": "Mount Fuji's climbing window, Kamikochi's car ban, Awa Odori's four nights, Koshien's evicted pros, and Kyoto's Daimonji fires on August 16.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts\n\nPhotos: Fabio Achilli from Milano, Italy, Takeshi Kuboki from Amagasaki, Japan (CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-08-13T23:38:24Z",
    "privacy": "public",
-   "views": 74,
+   "views": 75,
    "likes": 3,
    "comments": 0,
    "bucket": "travel",
    "category": "seasonal destinations",
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 15,
-   "avg_view_seconds": 26,
-   "avg_view_percent": 49.4
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -50,10 +47,7 @@
    "bucket": "other",
    "category": "animals and nature",
    "real": 3,
-   "ai": 4,
-   "watch_minutes": 17,
-   "avg_view_seconds": 21,
-   "avg_view_percent": 41.9
+   "ai": 4
   },
   {
    "platform": "youtube",
@@ -69,10 +63,7 @@
    "bucket": null,
    "category": null,
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 57,
-   "avg_view_seconds": 19,
-   "avg_view_percent": 41.5
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -88,10 +79,7 @@
    "bucket": "culture",
    "category": "regional customs and rituals",
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 83,
-   "avg_view_seconds": 42,
-   "avg_view_percent": 82.1
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -107,10 +95,7 @@
    "bucket": "product",
    "category": "vending machines and convenience store i",
    "real": 4,
-   "ai": 3,
-   "watch_minutes": 140,
-   "avg_view_seconds": 25,
-   "avg_view_percent": 53.4
+   "ai": 3
   },
   {
    "platform": "youtube",
@@ -126,10 +111,7 @@
    "bucket": null,
    "category": null,
    "real": 7,
-   "ai": 0,
-   "watch_minutes": 136,
-   "avg_view_seconds": 23,
-   "avg_view_percent": 47.3
+   "ai": 0
   },
   {
    "platform": "youtube",
@@ -145,10 +127,7 @@
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null,
-   "watch_minutes": 166,
-   "avg_view_seconds": 26,
-   "avg_view_percent": 52.1
+   "ai": null
   },
   {
    "platform": "youtube",
@@ -164,10 +143,7 @@
    "bucket": "culture",
    "category": "unwritten social rules and etiquette",
    "real": 4,
-   "ai": 3,
-   "watch_minutes": 189,
-   "avg_view_seconds": 30,
-   "avg_view_percent": 59.3
+   "ai": 3
   },
   {
    "platform": "youtube",
@@ -183,10 +159,7 @@
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null,
-   "watch_minutes": 168,
-   "avg_view_seconds": 72,
-   "avg_view_percent": 132.4
+   "ai": null
   },
   {
    "platform": "youtube",
@@ -202,10 +175,7 @@
    "bucket": null,
    "category": null,
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 2,
-   "avg_view_seconds": 27,
-   "avg_view_percent": 58.0
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -221,10 +191,7 @@
    "bucket": null,
    "category": null,
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 57,
-   "avg_view_seconds": 23,
-   "avg_view_percent": 48.9
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -240,10 +207,7 @@
    "bucket": "other",
    "category": "crafts and craftsmen",
    "real": 1,
-   "ai": 6,
-   "watch_minutes": 12,
-   "avg_view_seconds": 20,
-   "avg_view_percent": 39.5
+   "ai": 6
   },
   {
    "platform": "youtube",
@@ -259,10 +223,7 @@
    "bucket": "other",
    "category": "crafts and craftsmen",
    "real": 1,
-   "ai": 6,
-   "watch_minutes": 63,
-   "avg_view_seconds": 28,
-   "avg_view_percent": 50.3
+   "ai": 6
   },
   {
    "platform": "youtube",
@@ -278,10 +239,7 @@
    "bucket": "culture",
    "category": "seasonal events and festivals",
    "real": 1,
-   "ai": 6,
-   "watch_minutes": 9,
-   "avg_view_seconds": 30,
-   "avg_view_percent": 61.7
+   "ai": 6
   },
   {
    "platform": "youtube",
@@ -297,10 +255,7 @@
    "bucket": "culture",
    "category": "seasonal events and festivals",
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 9,
-   "avg_view_seconds": 29,
-   "avg_view_percent": 57.9
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -316,10 +271,7 @@
    "bucket": "product",
    "category": "vending machines and convenience store i",
    "real": 2,
-   "ai": 5,
-   "watch_minutes": 7,
-   "avg_view_seconds": 17,
-   "avg_view_percent": 35.9
+   "ai": 5
   },
   {
    "platform": "youtube",
@@ -335,10 +287,7 @@
    "bucket": "travel",
    "category": "places to go instead of the famous ones",
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 221,
-   "avg_view_seconds": 22,
-   "avg_view_percent": 43.2
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -354,10 +303,7 @@
    "bucket": "product",
    "category": "vending machines and convenience store i",
    "real": 1,
-   "ai": 6,
-   "watch_minutes": 286,
-   "avg_view_seconds": 32,
-   "avg_view_percent": 65.3
+   "ai": 6
   },
   {
    "platform": "youtube",
@@ -373,10 +319,7 @@
    "bucket": "travel",
    "category": "seasonal destinations",
    "real": 5,
-   "ai": 2,
-   "watch_minutes": 1,
-   "avg_view_seconds": 32,
-   "avg_view_percent": 58.5
+   "ai": 2
   },
   {
    "platform": "youtube",
@@ -392,10 +335,7 @@
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null,
-   "watch_minutes": 259,
-   "avg_view_seconds": 36,
-   "avg_view_percent": 67.1
+   "ai": null
   },
   {
    "platform": "youtube",
@@ -411,10 +351,7 @@
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null,
-   "watch_minutes": 132,
-   "avg_view_seconds": 160,
-   "avg_view_percent": 342.1
+   "ai": null
   },
   {
    "platform": "youtube",
@@ -430,10 +367,7 @@
    "bucket": null,
    "category": null,
    "real": null,
-   "ai": null,
-   "watch_minutes": 25,
-   "avg_view_seconds": 56,
-   "avg_view_percent": 111.3
+   "ai": null
   },
   {
    "platform": "youtube",
@@ -459,16 +393,13 @@
    "caption": "Japan has places that only exist at their best for a few weeks. Here are 5 seasonal spots worth timing your trip around.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts\n\nPhotos: AnonymousUnknown author, Damien McMahon from West Yorkshire, England, Douglas Perkins, Hyppolyte de Saint-Rambert, surimu (CC BY 4.0, CC BY 2.0, CC BY 3.0) via Wikimedia Commons",
    "published_at": "2026-07-29T00:06:59Z",
    "privacy": "public",
-   "views": 303,
+   "views": 304,
    "likes": 4,
    "comments": 1,
    "bucket": "travel",
    "category": "seasonal destinations",
    "real": 5,
-   "ai": 2,
-   "watch_minutes": 65,
-   "avg_view_seconds": 21,
-   "avg_view_percent": 41.4
+   "ai": 2
   },
   {
    "platform": "youtube",
@@ -484,10 +415,7 @@
    "bucket": "travel",
    "category": "scenic railways and journeys",
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 383,
-   "avg_view_seconds": 38,
-   "avg_view_percent": 69.3
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -503,10 +431,7 @@
    "bucket": "travel",
    "category": "scenic railways and journeys",
    "real": 4,
-   "ai": 3,
-   "watch_minutes": 0,
-   "avg_view_seconds": 38,
-   "avg_view_percent": 73.1
+   "ai": 3
   },
   {
    "platform": "youtube",
@@ -522,10 +447,7 @@
    "bucket": "travel",
    "category": "must see spots in a major city",
    "real": 7,
-   "ai": 0,
-   "watch_minutes": 1,
-   "avg_view_seconds": 21,
-   "avg_view_percent": 43.3
+   "ai": 0
   },
   {
    "platform": "youtube",
@@ -541,10 +463,7 @@
    "bucket": "culture",
    "category": "jobs and work culture",
    "real": 3,
-   "ai": 4,
-   "watch_minutes": 0,
-   "avg_view_seconds": 15,
-   "avg_view_percent": 29.3
+   "ai": 4
   },
   {
    "platform": "youtube",
@@ -560,10 +479,7 @@
    "bucket": "travel",
    "category": "underrated towns worth visiting",
    "real": 6,
-   "ai": 1,
-   "watch_minutes": 27,
-   "avg_view_seconds": 271,
-   "avg_view_percent": 512.8
+   "ai": 1
   },
   {
    "platform": "youtube",
@@ -579,10 +495,7 @@
    "bucket": "culture",
    "category": "everyday customs that surprise visitors",
    "real": 0,
-   "ai": 7,
-   "watch_minutes": 2,
-   "avg_view_seconds": 19,
-   "avg_view_percent": 42.4
+   "ai": 7
   },
   {
    "platform": "youtube",
@@ -598,10 +511,7 @@
    "bucket": "product",
    "category": "products that only exist in Japan",
    "real": 0,
-   "ai": 7,
-   "watch_minutes": 1,
-   "avg_view_seconds": 26,
-   "avg_view_percent": 49.0
+   "ai": 7
   },
   {
    "platform": "youtube",
@@ -617,13 +527,11 @@
    "bucket": "other",
    "category": "trivia and little known facts",
    "real": 2,
-   "ai": 5,
-   "watch_minutes": 1,
-   "avg_view_seconds": 33,
-   "avg_view_percent": 63.4
+   "ai": 5
   }
  ],
  "notes": [
+  "YouTube Analytics: 取得に失敗（HTTP 500）。反映まで1〜2日かかることがあります",
   "TikTok: アクセストークン未設定のため取得をスキップしました"
  ]
 }
