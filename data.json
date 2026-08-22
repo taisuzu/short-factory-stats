@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-21T00:50:07+00:00",
+ "updated_at": "2026-08-22T00:44:57+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "H0R3ipMnGt4",
+   "url": "https://youtube.com/shorts/H0R3ipMnGt4",
+   "title": "Japan's Apartments: 5 Everyday Details That Make No Sense #Shorts",
+   "caption": "An ordinary Japanese apartment: the heater that's an air conditioner, rooms measured in mats, and a balcony wall you're meant to break.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
+   "published_at": "2026-08-21T23:22:27Z",
+   "privacy": "public",
+   "views": 12,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "everyday",
+   "category": "inside an ordinary Japanese home",
+   "real": 0,
+   "ai": 7
+  },
   {
    "platform": "youtube",
    "id": "gp-KY8UIGq8",
@@ -9,13 +25,16 @@
    "caption": "Water on the pavement, cucumber horses, ghost plays in the heat, and fires on five Kyoto mountains: Japan's late-August customs explained.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts\n\nPhotos: Takeshi Kuboki from Amagasaki, Japan (CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-08-19T23:22:28Z",
    "privacy": "public",
-   "views": 7,
+   "views": 12,
    "likes": 0,
    "comments": 0,
    "bucket": "rules",
    "category": "everyday customs that surprise visitors",
    "real": 4,
-   "ai": 3
+   "ai": 3,
+   "watch_minutes": 0,
+   "avg_view_seconds": 6,
+   "avg_view_percent": 14.0
   },
   {
    "platform": "youtube",
@@ -32,9 +51,9 @@
    "category": null,
    "real": 7,
    "ai": 0,
-   "watch_minutes": 12,
-   "avg_view_seconds": 29,
-   "avg_view_percent": 55.9
+   "watch_minutes": 13,
+   "avg_view_seconds": 27,
+   "avg_view_percent": 51
   },
   {
    "platform": "youtube",
@@ -291,7 +310,7 @@
    "caption": "Japan's most expensive lacquerware takes 30 years to master, 124 steps, and a tree that bleeds just 200 grams a season. Here's why.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-08-01T00:10:25Z",
    "privacy": "public",
-   "views": 210,
+   "views": 211,
    "likes": 11,
    "comments": 1,
    "bucket": "other",
