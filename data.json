@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-23T00:50:18+00:00",
+ "updated_at": "2026-08-24T00:47:16+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "RNDnpz4Uj1U",
+   "url": "https://youtube.com/shorts/RNDnpz4Uj1U",
+   "title": "Japan's Black Cat Delivery Trucks: 5 Rules That Sound Fake #Shorts",
+   "caption": "Two-hour windows, chilled peaches, 3am pickups — how Japan's black cat delivery network actually works, and its Ghibli link.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
+   "published_at": "2026-08-23T23:19:38Z",
+   "privacy": "public",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "rules",
+   "category": "systems and services that surprise outsi",
+   "real": 1,
+   "ai": 6
+  },
   {
    "platform": "youtube",
    "id": "H0R3ipMnGt4",
@@ -9,13 +25,16 @@
    "caption": "An ordinary Japanese apartment: the heater that's an air conditioner, rooms measured in mats, and a balcony wall you're meant to break.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-08-21T23:22:27Z",
    "privacy": "public",
-   "views": 229,
+   "views": 419,
    "likes": 0,
    "comments": 0,
    "bucket": "everyday",
    "category": "inside an ordinary Japanese home",
    "real": 0,
-   "ai": 7
+   "ai": 7,
+   "watch_minutes": 7,
+   "avg_view_seconds": 30,
+   "avg_view_percent": 68.2
   },
   {
    "platform": "youtube",
@@ -317,9 +336,9 @@
    "category": "crafts and craftsmen",
    "real": 1,
    "ai": 6,
-   "watch_minutes": 63,
+   "watch_minutes": 64,
    "avg_view_seconds": 28,
-   "avg_view_percent": 50.3
+   "avg_view_percent": 50.6
   },
   {
    "platform": "youtube",
