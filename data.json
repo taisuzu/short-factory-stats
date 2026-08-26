@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-25T00:47:03+00:00",
+ "updated_at": "2026-08-26T00:48:39+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "hVbuxMeNoTY",
+   "url": "https://youtube.com/shorts/hVbuxMeNoTY",
+   "title": "Japan's One-Room Apartments: 3 Details That Make No Sense #Shorts",
+   "caption": "The genkan door, the plastic unit bath, the balcony divider: the real version of the apartment anime characters live in.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
+   "published_at": "2026-08-25T23:24:11Z",
+   "privacy": "public",
+   "views": 11,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "anime_real",
+   "category": "inside the apartment anime characters li",
+   "real": 0,
+   "ai": 5
+  },
   {
    "platform": "youtube",
    "id": "RNDnpz4Uj1U",
@@ -9,13 +25,16 @@
    "caption": "Two-hour windows, chilled peaches, 3am pickups — how Japan's black cat delivery network actually works, and its Ghibli link.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-08-23T23:19:38Z",
    "privacy": "public",
-   "views": 12,
+   "views": 17,
    "likes": 0,
    "comments": 0,
    "bucket": "rules",
    "category": "systems and services that surprise outsi",
    "real": 1,
-   "ai": 6
+   "ai": 6,
+   "watch_minutes": 3,
+   "avg_view_seconds": 30,
+   "avg_view_percent": 73.8
   },
   {
    "platform": "youtube",
@@ -25,16 +44,16 @@
    "caption": "An ordinary Japanese apartment: the heater that's an air conditioner, rooms measured in mats, and a balcony wall you're meant to break.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-08-21T23:22:27Z",
    "privacy": "public",
-   "views": 433,
+   "views": 432,
    "likes": 0,
    "comments": 0,
    "bucket": "everyday",
    "category": "inside an ordinary Japanese home",
    "real": 0,
    "ai": 7,
-   "watch_minutes": 17,
-   "avg_view_seconds": 25,
-   "avg_view_percent": 58.5
+   "watch_minutes": 24,
+   "avg_view_seconds": 22,
+   "avg_view_percent": 52.2
   },
   {
    "platform": "youtube",
