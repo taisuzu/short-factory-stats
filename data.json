@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-27T06:19:40+00:00",
+ "updated_at": "2026-08-28T08:12:10+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "Ns2HAZRPMPQ",
+   "url": "https://youtube.com/shorts/Ns2HAZRPMPQ",
+   "title": "Japan's Cosplay Events: 3 Rules That Sound Made Up #Shorts",
+   "caption": "Cosplay in Japan runs on rules outsiders never expect: changing halls, prop inspections, and photographers who wait in line.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
+   "published_at": "2026-08-28T06:32:07Z",
+   "privacy": "public",
+   "views": 23,
+   "likes": 1,
+   "comments": 0,
+   "bucket": "otaku_culture",
+   "category": "cosplay as it actually works in Japan",
+   "real": 2,
+   "ai": 3
+  },
   {
    "platform": "youtube",
    "id": "hVbuxMeNoTY",
@@ -9,13 +25,16 @@
    "caption": "The genkan door, the plastic unit bath, the balcony divider: the real version of the apartment anime characters live in.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-08-25T23:24:11Z",
    "privacy": "public",
-   "views": 70,
+   "views": 195,
    "likes": 0,
    "comments": 0,
    "bucket": "anime_real",
    "category": "inside the apartment anime characters li",
    "real": 0,
-   "ai": 5
+   "ai": 5,
+   "watch_minutes": 3,
+   "avg_view_seconds": 12,
+   "avg_view_percent": 44.3
   },
   {
    "platform": "youtube",
