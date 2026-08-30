@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-29T04:57:00+00:00",
+ "updated_at": "2026-08-30T02:43:57+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "MUA0JtMOfrQ",
+   "url": "https://youtube.com/shorts/MUA0JtMOfrQ",
+   "title": "Melon Pan, Bento, Curry: 3 Anime Foods That Fooled You #Shorts",
+   "caption": "Melon pan has no melon, elementary schools don't do bento, and Japan's navy eats curry on a schedule. The real versions of anime food.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts\n\nPhotos: Douglas P Perkins (CC BY 3.0) via Wikimedia Commons",
+   "published_at": "2026-08-30T01:00:19Z",
+   "privacy": "public",
+   "views": 12,
+   "likes": 0,
+   "comments": 1,
+   "bucket": "anime_real",
+   "category": "the food that shows up in every anime",
+   "real": 5,
+   "ai": 0
+  },
   {
    "platform": "youtube",
    "id": "Ns2HAZRPMPQ",
@@ -9,13 +25,16 @@
    "caption": "Cosplay in Japan runs on rules outsiders never expect: changing halls, prop inspections, and photographers who wait in line.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-08-28T06:32:07Z",
    "privacy": "public",
-   "views": 379,
-   "likes": 7,
+   "views": 380,
+   "likes": 8,
    "comments": 0,
    "bucket": "otaku_culture",
    "category": "cosplay as it actually works in Japan",
    "real": 2,
-   "ai": 3
+   "ai": 3,
+   "watch_minutes": 2,
+   "avg_view_seconds": 20,
+   "avg_view_percent": 69.0
   },
   {
    "platform": "youtube",
@@ -25,16 +44,16 @@
    "caption": "The genkan door, the plastic unit bath, the balcony divider: the real version of the apartment anime characters live in.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-08-25T23:24:11Z",
    "privacy": "public",
-   "views": 203,
+   "views": 202,
    "likes": 0,
    "comments": 0,
    "bucket": "anime_real",
    "category": "inside the apartment anime characters li",
    "real": 0,
    "ai": 5,
-   "watch_minutes": 6,
-   "avg_view_seconds": 12,
-   "avg_view_percent": 43.2
+   "watch_minutes": 10,
+   "avg_view_seconds": 11,
+   "avg_view_percent": 40.9
   },
   {
    "platform": "youtube",
