@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-31T02:37:26+00:00",
+ "updated_at": "2026-09-01T02:50:45+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "dwkfFzk6AW8",
+   "url": "https://youtube.com/shorts/dwkfFzk6AW8",
+   "title": "Japan's Konbini Counter: 3 Things Anime Never Shows #Shorts",
+   "caption": "Oden by the register in September heat, a button only you can press, and the Lawson a town tried to screen off from Mount Fuji.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts\n\nPhotos: Jeffrey Hayes (CC BY 2.0) via Wikimedia Commons",
+   "published_at": "2026-09-01T01:36:51Z",
+   "privacy": "public",
+   "views": 10,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "anime_real",
+   "category": "what a Japanese konbini is actually like",
+   "real": 2,
+   "ai": 3
+  },
   {
    "platform": "youtube",
    "id": "MUA0JtMOfrQ",
@@ -9,13 +25,16 @@
    "caption": "Melon pan has no melon, elementary schools don't do bento, and Japan's navy eats curry on a schedule. The real versions of anime food.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts\n\nPhotos: Douglas P Perkins (CC BY 3.0) via Wikimedia Commons",
    "published_at": "2026-08-30T01:00:19Z",
    "privacy": "public",
-   "views": 149,
+   "views": 150,
    "likes": 0,
    "comments": 1,
    "bucket": "anime_real",
    "category": "the food that shows up in every anime",
    "real": 5,
-   "ai": 0
+   "ai": 0,
+   "watch_minutes": 7,
+   "avg_view_seconds": 12,
+   "avg_view_percent": 43.2
   },
   {
    "platform": "youtube",
@@ -25,16 +44,16 @@
    "caption": "Cosplay in Japan runs on rules outsiders never expect: changing halls, prop inspections, and photographers who wait in line.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-08-28T06:32:07Z",
    "privacy": "public",
-   "views": 522,
+   "views": 526,
    "likes": 11,
    "comments": 0,
    "bucket": "otaku_culture",
    "category": "cosplay as it actually works in Japan",
    "real": 2,
    "ai": 3,
-   "watch_minutes": 53,
+   "watch_minutes": 71,
    "avg_view_seconds": 20,
-   "avg_view_percent": 70.4
+   "avg_view_percent": 70.6
   },
   {
    "platform": "youtube",
@@ -44,7 +63,7 @@
    "caption": "The genkan door, the plastic unit bath, the balcony divider: the real version of the apartment anime characters live in.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-08-25T23:24:11Z",
    "privacy": "public",
-   "views": 202,
+   "views": 204,
    "likes": 0,
    "comments": 0,
    "bucket": "anime_real",
@@ -386,7 +405,7 @@
    "caption": "Japan's most expensive lacquerware takes 30 years to master, 124 steps, and a tree that bleeds just 200 grams a season. Here's why.\n\nNew video every day — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\n#japan #japantravel #culture #shorts",
    "published_at": "2026-08-01T00:10:25Z",
    "privacy": "public",
-   "views": 211,
+   "views": 212,
    "likes": 11,
    "comments": 1,
    "bucket": "other",
