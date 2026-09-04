@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-09-03T02:17:44+00:00",
+ "updated_at": "2026-09-04T02:13:04+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "zDfpqH873Dg",
+   "url": "https://youtube.com/shorts/zDfpqH873Dg",
+   "title": "Japan's Anime Voice Booth: 3 Things That Shouldn't Work #Shorts",
+   "caption": "The real anime recording booth: the whole cast at shared mics, unfinished footage on screen, and what one episode actually pays.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/5-anime-that-actually-shaped-japan\n\n#japan #anime #otaku #shorts",
+   "published_at": "2026-09-04T00:40:49Z",
+   "privacy": "public",
+   "views": 95,
+   "likes": 1,
+   "comments": 0,
+   "bucket": "otaku_culture",
+   "category": "how voice actors actually work in Japan",
+   "real": 0,
+   "ai": 5
+  },
   {
    "platform": "youtube",
    "id": "AUzRhUzRrDs",
@@ -9,13 +25,16 @@
    "caption": "Akihabara today: the arcade towers changed owners, AKB48 sits above a discount store, and the Sunday street has a rule nobody expects.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts\n\nPhotos: BWard 1997, Colin McMillen from Pittsburgh, U.S.A. (CC BY 4.0, CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-09-02T00:48:11Z",
    "privacy": "public",
-   "views": 625,
+   "views": 628,
    "likes": 4,
    "comments": 0,
    "bucket": "otaku_places",
    "category": "what Akihabara is actually like now",
    "real": 5,
-   "ai": 0
+   "ai": 0,
+   "watch_minutes": 58,
+   "avg_view_seconds": 18,
+   "avg_view_percent": 57.0
   },
   {
    "platform": "youtube",
@@ -25,16 +44,16 @@
    "caption": "Oden by the register in September heat, a button only you can press, and the Lawson a town tried to screen off from Mount Fuji.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/5-anime-that-actually-shaped-japan\n\n#japan #anime #otaku #shorts\n\nPhotos: Jeffrey Hayes (CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-09-01T01:36:51Z",
    "privacy": "public",
-   "views": 415,
+   "views": 434,
    "likes": 7,
    "comments": 0,
    "bucket": "anime_real",
    "category": "what a Japanese konbini is actually like",
    "real": 2,
    "ai": 3,
-   "watch_minutes": 9,
-   "avg_view_seconds": 23,
-   "avg_view_percent": 76.2
+   "watch_minutes": 34,
+   "avg_view_seconds": 18,
+   "avg_view_percent": 60.0
   },
   {
    "platform": "youtube",
@@ -108,9 +127,9 @@
    "category": "systems and services that surprise outsi",
    "real": 1,
    "ai": 6,
-   "watch_minutes": 3,
+   "watch_minutes": 4,
    "avg_view_seconds": 30,
-   "avg_view_percent": 73.8
+   "avg_view_percent": 73.3
   },
   {
    "platform": "youtube",
