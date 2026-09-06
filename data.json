@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-09-05T02:13:37+00:00",
+ "updated_at": "2026-09-06T02:09:00+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "RyYWAWDNXHw",
+   "url": "https://youtube.com/shorts/RyYWAWDNXHw",
+   "title": "Nakano Broadway: 3 Things That Shouldn't Be There #Shorts",
+   "caption": "Mandarake's twenty-plus shops, an eight-layer soft serve in the basement, and hand-painted cels nobody makes anymore — inside Nakano Broadway.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
+   "published_at": "2026-09-06T00:29:27Z",
+   "privacy": "public",
+   "views": 34,
+   "likes": 1,
+   "comments": 0,
+   "bucket": "otaku_places",
+   "category": "Nakano Broadway and the secondhand otaku",
+   "real": 3,
+   "ai": 2
+  },
   {
    "platform": "youtube",
    "id": "zDfpqH873Dg",
@@ -9,13 +25,16 @@
    "caption": "The real anime recording booth: the whole cast at shared mics, unfinished footage on screen, and what one episode actually pays.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/5-anime-that-actually-shaped-japan\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-09-04T00:40:49Z",
    "privacy": "public",
-   "views": 885,
+   "views": 890,
    "likes": 3,
    "comments": 0,
    "bucket": "otaku_culture",
    "category": "how voice actors actually work in Japan",
    "real": 0,
-   "ai": 5
+   "ai": 5,
+   "watch_minutes": 41,
+   "avg_view_seconds": 12,
+   "avg_view_percent": 36.1
   },
   {
    "platform": "youtube",
@@ -25,7 +44,7 @@
    "caption": "Akihabara today: the arcade towers changed owners, AKB48 sits above a discount store, and the Sunday street has a rule nobody expects.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts\n\nPhotos: BWard 1997, Colin McMillen from Pittsburgh, U.S.A. (CC BY 4.0, CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-09-02T00:48:11Z",
    "privacy": "public",
-   "views": 631,
+   "views": 633,
    "likes": 4,
    "comments": 0,
    "bucket": "otaku_places",
@@ -34,7 +53,7 @@
    "ai": 0,
    "watch_minutes": 67,
    "avg_view_seconds": 17,
-   "avg_view_percent": 54.3
+   "avg_view_percent": 54.1
   },
   {
    "platform": "youtube",
@@ -44,7 +63,7 @@
    "caption": "Oden by the register in September heat, a button only you can press, and the Lawson a town tried to screen off from Mount Fuji.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/5-anime-that-actually-shaped-japan\n\n#japan #anime #otaku #shorts\n\nPhotos: Jeffrey Hayes (CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-09-01T01:36:51Z",
    "privacy": "public",
-   "views": 434,
+   "views": 435,
    "likes": 7,
    "comments": 0,
    "bucket": "anime_real",
@@ -63,7 +82,7 @@
    "caption": "Melon pan has no melon, elementary schools don't do bento, and Japan's navy eats curry on a schedule. The real versions of anime food.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts\n\nPhotos: Douglas P Perkins (CC BY 3.0) via Wikimedia Commons",
    "published_at": "2026-08-30T01:00:19Z",
    "privacy": "public",
-   "views": 150,
+   "views": 151,
    "likes": 0,
    "comments": 1,
    "bucket": "anime_real",
@@ -310,7 +329,7 @@
    "caption": "The five Japanese cities foreign travellers visit most, and one thing about each you probably didn't know.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts\n\nPhotos: Nesnad (CC BY 4.0) via Wikimedia Commons",
    "published_at": "2026-08-07T01:47:28Z",
    "privacy": "public",
-   "views": 595,
+   "views": 596,
    "likes": 5,
    "comments": 1,
    "bucket": null,
@@ -669,7 +688,7 @@
    "published_at": "2026-07-28T17:53:04Z",
    "privacy": "public",
    "views": 923,
-   "likes": 32,
+   "likes": 31,
    "comments": 1,
    "bucket": "travel",
    "category": "scenic railways and journeys",
