@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-09-07T02:06:35+00:00",
+ "updated_at": "2026-09-08T02:18:18+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "iciHMbnrFP8",
+   "url": "https://youtube.com/shorts/iciHMbnrFP8",
+   "title": "Japan's Empty Apartments: 3 Things That Aren't Included #Shorts",
+   "caption": "No ceiling light, no gas, and a gift to the landlord you never get back. What moving into a Japanese apartment is really like.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/5-anime-that-actually-shaped-japan\n\n#japan #anime #otaku #shorts",
+   "published_at": "2026-09-08T00:55:23Z",
+   "privacy": "public",
+   "views": 28,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "anime_real",
+   "category": "inside the apartment anime characters li",
+   "real": 0,
+   "ai": 5
+  },
   {
    "platform": "youtube",
    "id": "RyYWAWDNXHw",
@@ -9,13 +25,16 @@
    "caption": "Mandarake's twenty-plus shops, an eight-layer soft serve in the basement, and hand-painted cels nobody makes anymore — inside Nakano Broadway.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-09-06T00:29:27Z",
    "privacy": "public",
-   "views": 120,
+   "views": 124,
    "likes": 2,
    "comments": 0,
    "bucket": "otaku_places",
    "category": "Nakano Broadway and the secondhand otaku",
    "real": 3,
-   "ai": 2
+   "ai": 2,
+   "watch_minutes": 4,
+   "avg_view_seconds": 12,
+   "avg_view_percent": 30.5
   },
   {
    "platform": "youtube",
@@ -51,9 +70,9 @@
    "category": "what Akihabara is actually like now",
    "real": 5,
    "ai": 0,
-   "watch_minutes": 67,
+   "watch_minutes": 68,
    "avg_view_seconds": 17,
-   "avg_view_percent": 54.1
+   "avg_view_percent": 54.2
   },
   {
    "platform": "youtube",
@@ -110,7 +129,7 @@
    "ai": 3,
    "watch_minutes": 78,
    "avg_view_seconds": 20,
-   "avg_view_percent": 72.2
+   "avg_view_percent": 72.4
   },
   {
    "platform": "youtube",
