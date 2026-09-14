@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-09-13T02:20:53+00:00",
+ "updated_at": "2026-09-14T02:38:06+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "LDYpKCUoLYs",
+   "url": "https://youtube.com/shorts/LDYpKCUoLYs",
+   "title": "Japan's Ramen: 3 Things That Happen Before You Eat #Shorts",
+   "caption": "Ticket machines, kaedama refills and the upside-down cup in Yokohama: how Japan's most anime food actually works.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/the-art-of-slurping-ramen\n\n#japan #anime #otaku #shorts\n\nPhotos: Guilhem Vellut from Paris, France, Guilhem Vellut from Annecy, France (CC BY 2.0) via Wikimedia Commons",
+   "published_at": "2026-09-14T00:38:37Z",
+   "privacy": "public",
+   "views": 73,
+   "likes": 0,
+   "comments": 0,
+   "bucket": "anime_real",
+   "category": "the food that shows up in every anime",
+   "real": 3,
+   "ai": 2
+  },
   {
    "platform": "youtube",
    "id": "0Eer2pbsmxo",
@@ -9,13 +25,16 @@
    "caption": "Where to walk at Meiji Shrine, why the toilet has its own slippers, and why you never fill your own glass.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/izakaya-etiquette-guide-for-first-timers\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-09-12T00:55:07Z",
    "privacy": "public",
-   "views": 32,
+   "views": 116,
    "likes": 1,
    "comments": 0,
    "bucket": "everyday",
    "category": "unwritten social rules and etiquette",
    "real": 2,
-   "ai": 3
+   "ai": 3,
+   "watch_minutes": 2,
+   "avg_view_seconds": 18,
+   "avg_view_percent": 60.0
   },
   {
    "platform": "youtube",
@@ -25,7 +44,7 @@
    "caption": "Comiket's phone-book catalogue, the 10am applause at Tokyo Big Sight, and why buying a doujinshi takes about five seconds.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-09-10T00:50:08Z",
    "privacy": "public",
-   "views": 35,
+   "views": 36,
    "likes": 0,
    "comments": 0,
    "bucket": "otaku_places",
@@ -33,8 +52,8 @@
    "real": 1,
    "ai": 4,
    "watch_minutes": 2,
-   "avg_view_seconds": 13,
-   "avg_view_percent": 41.1
+   "avg_view_seconds": 11,
+   "avg_view_percent": 35.1
   },
   {
    "platform": "youtube",
@@ -51,9 +70,9 @@
    "category": "inside the apartment anime characters li",
    "real": 0,
    "ai": 5,
-   "watch_minutes": 155,
+   "watch_minutes": 159,
    "avg_view_seconds": 24,
-   "avg_view_percent": 83.4
+   "avg_view_percent": 83.0
   },
   {
    "platform": "youtube",
@@ -89,7 +108,7 @@
    "category": "how voice actors actually work in Japan",
    "real": 0,
    "ai": 5,
-   "watch_minutes": 77,
+   "watch_minutes": 76,
    "avg_view_seconds": 13,
    "avg_view_percent": 40.6
   },
