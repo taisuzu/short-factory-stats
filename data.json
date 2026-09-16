@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-09-15T02:41:29+00:00",
+ "updated_at": "2026-09-16T02:36:06+00:00",
  "videos": [
+  {
+   "platform": "youtube",
+   "id": "OInCVV8gOWg",
+   "url": "https://youtube.com/shorts/OInCVV8gOWg",
+   "title": "Japan's Konbini: 3 Things That Shouldn't Be In There #Shorts",
+   "caption": "Coffee you brew yourself, a magazine rack aimed at the street, and a copier printing anime art at 3am. What konbini actually do.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/konbini-survival-guide\n\n#japan #anime #otaku #shorts\n\nPhotos: Pier Fumagalli (CC BY 2.0) via Wikimedia Commons",
+   "published_at": "2026-09-16T00:59:51Z",
+   "privacy": "public",
+   "views": 68,
+   "likes": 2,
+   "comments": 0,
+   "bucket": "anime_real",
+   "category": "what a Japanese konbini is actually like",
+   "real": 2,
+   "ai": 3
+  },
   {
    "platform": "youtube",
    "id": "LDYpKCUoLYs",
@@ -9,13 +25,16 @@
    "caption": "Ticket machines, kaedama refills and the upside-down cup in Yokohama: how Japan's most anime food actually works.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/the-art-of-slurping-ramen\n\n#japan #anime #otaku #shorts\n\nPhotos: Guilhem Vellut from Paris, France, Guilhem Vellut from Annecy, France (CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-09-14T00:38:37Z",
    "privacy": "public",
-   "views": 756,
-   "likes": 5,
+   "views": 891,
+   "likes": 6,
    "comments": 0,
    "bucket": "anime_real",
    "category": "the food that shows up in every anime",
    "real": 3,
-   "ai": 2
+   "ai": 2,
+   "watch_minutes": 41,
+   "avg_view_seconds": 18,
+   "avg_view_percent": 57.7
   },
   {
    "platform": "youtube",
@@ -32,9 +51,9 @@
    "category": "unwritten social rules and etiquette",
    "real": 2,
    "ai": 3,
-   "watch_minutes": 4,
-   "avg_view_seconds": 15,
-   "avg_view_percent": 49.5
+   "watch_minutes": 13,
+   "avg_view_seconds": 21,
+   "avg_view_percent": 68.0
   },
   {
    "platform": "youtube",
@@ -63,7 +82,7 @@
    "caption": "No ceiling light, no gas, and a gift to the landlord you never get back. What moving into a Japanese apartment is really like.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com/articles/5-anime-that-actually-shaped-japan\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-09-08T00:55:23Z",
    "privacy": "public",
-   "views": 783,
+   "views": 784,
    "likes": 15,
    "comments": 0,
    "bucket": "anime_real",
@@ -272,7 +291,7 @@
    "caption": "Five traditional Japanese yokai that still show up in sushi names, shop doorways, shrine statues and one February ritual.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts\n\nPhotos: Sahaib, paranoidnotandroid, Guilhem Vellut from Annecy, France (CC BY 4.0, CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-08-18T16:14:15Z",
    "privacy": "public",
-   "views": 63,
+   "views": 62,
    "likes": 2,
    "comments": 0,
    "bucket": null,
