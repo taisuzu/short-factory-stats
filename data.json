@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-30T03:14:12+00:00",
+ "updated_at": "2026-10-01T03:20:58+00:00",
  "videos": [
   {
    "platform": "youtube",
@@ -16,9 +16,9 @@
    "category": null,
    "real": null,
    "ai": null,
-   "watch_minutes": 29,
-   "avg_view_seconds": 17,
-   "avg_view_percent": 54.4
+   "watch_minutes": 42,
+   "avg_view_seconds": 16,
+   "avg_view_percent": 50.0
   },
   {
    "platform": "youtube",
@@ -436,7 +436,7 @@
    "ai": 1,
    "watch_minutes": 84,
    "avg_view_seconds": 42,
-   "avg_view_percent": 81.8
+   "avg_view_percent": 81.3
   },
   {
    "platform": "youtube",
@@ -740,7 +740,7 @@
    "ai": null,
    "watch_minutes": 259,
    "avg_view_seconds": 36,
-   "avg_view_percent": 67.1
+   "avg_view_percent": 67.0
   },
   {
    "platform": "youtube",
