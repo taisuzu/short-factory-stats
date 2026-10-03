@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-02T03:21:31+00:00",
+ "updated_at": "2026-10-03T03:06:38+00:00",
  "videos": [
   {
    "platform": "youtube",
@@ -919,12 +919,12 @@
    "published_at": "2026-07-27T19:30:57Z",
    "privacy": "public",
    "views": 17,
-   "likes": 0,
-   "comments": 0,
-   "bucket": null,
-   "category": null,
-   "real": null,
-   "ai": null,
+   "likes": 1,
+   "comments": 1,
+   "bucket": "travel",
+   "category": "underrated towns worth visiting",
+   "real": 6,
+   "ai": 1,
    "watch_minutes": 27,
    "avg_view_seconds": 271,
    "avg_view_percent": 512.8
