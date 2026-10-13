@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-12T03:31:42+00:00",
+ "updated_at": "2026-10-13T04:45:57+00:00",
  "videos": [
   {
    "platform": "youtube",
@@ -18,7 +18,7 @@
    "ai": null,
    "watch_minutes": 42,
    "avg_view_seconds": 16,
-   "avg_view_percent": 50.0
+   "avg_view_percent": 50.1
   },
   {
    "platform": "youtube",
@@ -36,8 +36,8 @@
    "real": 3,
    "ai": 2,
    "watch_minutes": 3,
-   "avg_view_seconds": 17,
-   "avg_view_percent": 47.0
+   "avg_view_seconds": 15,
+   "avg_view_percent": 42.5
   },
   {
    "platform": "youtube",
@@ -142,7 +142,7 @@
    "caption": "Mandarake's twenty-plus shops, an eight-layer soft serve in the basement, and hand-painted cels nobody makes anymore — inside Nakano Broadway.\n\nNew videos every few days — the real Japan behind the anime.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #anime #otaku #shorts",
    "published_at": "2026-09-06T00:29:27Z",
    "privacy": "public",
-   "views": 126,
+   "views": 127,
    "likes": 2,
    "comments": 0,
    "bucket": "otaku_places",
@@ -435,8 +435,8 @@
    "real": 6,
    "ai": 1,
    "watch_minutes": 84,
-   "avg_view_seconds": 42,
-   "avg_view_percent": 81.3
+   "avg_view_seconds": 41,
+   "avg_view_percent": 80.6
   },
   {
    "platform": "youtube",
