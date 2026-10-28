@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T03:05:08+00:00",
+ "updated_at": "2026-10-28T03:17:36+00:00",
  "videos": [
   {
    "platform": "youtube",
@@ -18,7 +18,7 @@
    "ai": null,
    "watch_minutes": 43,
    "avg_view_seconds": 16,
-   "avg_view_percent": 49.8
+   "avg_view_percent": 49.6
   },
   {
    "platform": "youtube",
@@ -35,9 +35,9 @@
    "category": "how doujinshi events actually run",
    "real": 3,
    "ai": 2,
-   "watch_minutes": 3,
-   "avg_view_seconds": 14,
-   "avg_view_percent": 39.9
+   "watch_minutes": 5,
+   "avg_view_seconds": 18,
+   "avg_view_percent": 48.8
   },
   {
    "platform": "youtube",
@@ -56,7 +56,7 @@
    "ai": 3,
    "watch_minutes": 60,
    "avg_view_seconds": 22,
-   "avg_view_percent": 79.0
+   "avg_view_percent": 78.8
   },
   {
    "platform": "youtube",
@@ -370,7 +370,7 @@
    "caption": "Mount Fuji's climbing window, Kamikochi's car ban, Awa Odori's four nights, Koshien's evicted pros, and Kyoto's Daimonji fires on August 16.\n\nNew videos every few days — the Japan that isn't in the guidebook.\nhttps://www.youtube.com/@japanoffscript05?sub_confirmation=1\n\nRead the full story:\nhttps://japanoffscript.com\n\n#japan #japantravel #culture #shorts\n\nPhotos: Fabio Achilli from Milano, Italy, Takeshi Kuboki from Amagasaki, Japan (CC BY 2.0) via Wikimedia Commons",
    "published_at": "2026-08-13T23:38:24Z",
    "privacy": "public",
-   "views": 74,
+   "views": 75,
    "likes": 3,
    "comments": 0,
    "bucket": "travel",
@@ -700,9 +700,9 @@
    "category": "vending machines and convenience store i",
    "real": 1,
    "ai": 6,
-   "watch_minutes": 287,
+   "watch_minutes": 288,
    "avg_view_seconds": 32,
-   "avg_view_percent": 65.4
+   "avg_view_percent": 65.5
   },
   {
    "platform": "youtube",
